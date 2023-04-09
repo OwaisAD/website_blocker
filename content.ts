@@ -1,13 +1,13 @@
 /*
 add your own list of websites in the array.
-for example:
-let blockedSites: string[] = [
-  "www.facebook.com",
-  "www.fakewebsite2.com"
-];
 */
 
-let blockedSites: string[] = [];
+let blockedSites = [
+  "www.facebook.com",
+  "www.instagram.com",
+  "www.linkedin.com",
+  "www.ekstrabladet.dk",
+];
 
 if (blockedSites.includes(window.location.hostname)) {
   console.log(`Focus up, you shouldn't be on: ${window.location.hostname}`);
