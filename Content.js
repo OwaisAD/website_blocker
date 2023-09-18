@@ -252,7 +252,7 @@ const generateHTML = (pageName) => {
 };
 
 switch (window.location.hostname) {
-  case "www.twitter.com":
+  case "twitter.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("TWITTER");
     break;
