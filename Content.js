@@ -268,11 +268,11 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("LINKEDIN");
     break;
-  case "www.ekstrabladet.dk":
+  case "ekstrabladet.dk":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("EB");
     break;
-  case "www.spotify.com":
+  case "open.spotify.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("SPOTIFY");
     break;
