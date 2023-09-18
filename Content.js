@@ -252,25 +252,25 @@ const generateHTML = (pageName) => {
 };
 
 switch (window.location.hostname) {
-  case "www.youtube.com":
+  case "www.twitter.com":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("YOUTUBE");
+    document.body.innerHTML = generateHTML("TWITTER");
     break;
   case "www.facebook.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("FACEBOOK");
     break;
-  case "www.netflix.com":
+  case "www.instagram.com":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("NETFLIX");
+    document.body.innerHTML = generateHTML("INSTAGRAM");
     break;
-  case "www.roblox.com":
+  case "www.linkedin.com":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("ROBLOX");
+    document.body.innerHTML = generateHTML("LINKEDIN");
     break;
-  case "discord.com":
+  case "www.ekstrabladet.dk":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("DISCORD");
+    document.body.innerHTML = generateHTML("EB");
     break;
   case "www.spotify.com":
     document.head.innerHTML = generateSTYLES();
